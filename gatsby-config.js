@@ -18,12 +18,7 @@ module.exports = {
         name: 'images',
       },
     },
-    {
-      resolve: 'gatsby-plugin-google-analytics',
-      options: {
-        trackingId: config.googleAnalyticsID,
-      },
-    },
+   
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
     {
